@@ -25,5 +25,9 @@ Purchase Order Endpoints:
 List/Create Purchase Order: http://127.0.0.1:8000/api/purchase_orders/
 Retrieve/Update/Delete Purchase Order: http://127.0.0.1:8000/api/purchase_orders/{po_id}/
 
+**Running the Test Suite**
+To run the test suite, navigate to the project directory and run the following command: python manage.py test
+
+
 **Documentation**
 For detailed documentation on each API endpoint, please refer to the API Documentation.
