@@ -15,3 +15,15 @@ This is a Vendor Management System built using Django and Django REST Framework.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/Django-Vendor-Management-System.git
+**
+  *** API Endpoints***
+**Vendor Endpoints:**
+List/Create Vendor: http://127.0.0.1:8000/api/vendors/
+Retrieve/Update/Delete Vendor: http://127.0.0.1:8000/api/vendors/{vendor_id}/
+Vendor Performance: http://127.0.0.1:8000/api/vendors/{vendor_id}/performance/
+Purchase Order Endpoints:
+List/Create Purchase Order: http://127.0.0.1:8000/api/purchase_orders/
+Retrieve/Update/Delete Purchase Order: http://127.0.0.1:8000/api/purchase_orders/{po_id}/
+
+**Documentation**
+For detailed documentation on each API endpoint, please refer to the API Documentation.
